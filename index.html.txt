@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وب سایت شخصی</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2b6cb0;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2b6cb0;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2b6cb0;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>دکتر حسین - مهندس کامپیوتر</h1>
+    <p>پژوهشگر و استاد  دانشگاه</p>
+    <nav>
+      <a href="#about">درباره من</a>
+      <a href="#projects">پروژه‌ها</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>درباره من</h2>
+    <p>
+      من دکترای مهندسی کامپیوتر (سیستم‌های نرم‌افزاری) دارم و سال‌ها در زمینه آموزش، پژوهش و توسعه الگوریتم‌های بهینه‌سازی فراابتکاری چندعاملی فعالیت کرده‌ام.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>پروژه‌ها و مقالات</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>پروژه ۱</h3>
+        <p>طراحی الگوریتم بهینه‌سازی چندعاملی.</p>
+      </div>
+      <div class="card">
+        <h3>پروژه ۲</h3>
+        <p>انتشار مقاله در زمینه سیستم‌های نرم‌افزاری.</p>
+      </div>
+      <div class="card">
+        <h3>پروژه ۳</h3>
+        <p>راهنمایی پایان‌نامه‌های کارشناسی ارشد و دکتری.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>ارتباط با من</h2>
+    <p>ایمیل: <a href="mailto:mirshojaee.h@email.com">yourname@email.com</a></p>
+    <p>لینکدین: <a href="#">linkedin.com/in/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 کلیه حقوق محفوظ است.</p>
+  </footer>
+</body>
+</html>
